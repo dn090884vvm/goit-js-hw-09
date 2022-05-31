@@ -1,0 +1,50 @@
+input {
+  padding: 10px;
+  width: 40pxß;
+  border: 1px solid #83cac6;
+
+  background-color: none;
+}
+.field:first-child {
+  margin-left: 12px;
+}
+input:hover,
+input:focus {
+  background-color: #83cac6;
+}
+button {
+  width: 70px;
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #83cac6;
+  border-radius: 2px;
+}
+button:hover,
+button:focus {
+  background-color: #3d4457;
+  color: #ffffff;
+}
+
+.timer-finished {
+  background-color: green;
+}
+.timer {
+  margin-top: 15px;
+  display: flex;
+  border: 1px solid tomato;
+  width: 300px;
+}
+/* .field {
+  border: 1px solid tomato;
+  background-color: pink;
+}
+
+.field:not(:last-child) {
+  border-right: none;
+  border-left: none;
+} */
+
+.value {
+  display: block;
+  font-size: 48px;
+}
